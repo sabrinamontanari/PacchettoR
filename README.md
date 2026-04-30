@@ -11,6 +11,7 @@ per usare il pacchetto va richiamato con la funzione `library()`:
 library(PacchettoR)
 ```
 ## La struttura del pacchetto è la seguente
+```r
 PacchettoR/
 ├── DESCRIPTION      # Metadati del pacchetto (nome, versione, dipendenze)
 ├── NAMESPACE        # Gestione delle funzioni esportate
@@ -22,3 +23,4 @@ PacchettoR/
 │   └── somma.Rd
 ├── README.md        # Descrizione del progetto
 └── .Rproj           # File progetto RStudio (opzionale)
+```
